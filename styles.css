@@ -1,0 +1,74 @@
+/* Estilos generales */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    /*border: 1px solid red;*/
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div[class*='contenedor'] {
+    background-color: lemonchiffon;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: auto;
+   /*border: 1px solid red;*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* estilos parte arriba tarjeta*/
+div[class*='titulo'] {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /*border: 1px solid red;*/
+}
+
+div[class*='titulo'] h3 {
+    width: 80%;
+}
+
+div[class*='titulo'] p {
+    float: right;
+    margin-left: auto;
+}
+
+/* estilos parte del medio tarjeta*/
+
+div[class*='foto'] {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /*border: 1px solid red;*/
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* estilos parte de abajo tarjeta*/
+
+div[class*='footer'] {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /*border: 1px solid red;*/
+}
+
+div[class*='footer'] p{
+    text-align: justify;
+}
